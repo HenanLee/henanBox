@@ -33,12 +33,10 @@ if(typeof $response == "undefined") {
 {"app_name":"Inread","bundle_id":"Swipe-and-tap.inRead","product_id":"inRead.premium.monthly","entitlements":["premium_access"],"version":"1.4"},
       {"app_name":"Yosum","bundle_id":"terrykuo.co.yosum","product_id":"terrykuo.co.yosum.premiummembership","entitlements":["Premium"],"version":"2.5.5"},
       {"app_name":"HabitDone","bundle_id":"com.dison.HabitDone","product_id":"Lifetime","entitlements":["pro"],"version":"3.1.2"},
-      # {"app_name":"Thiro","bundle_id":"io.github.ctlvie.atelerix","product_id":"atelerix_pro_lifetime","entitlements":["pro"],"version":"1.3.12"},
+
       {"app_name":"js_code_pad","bundle_id":"com.markodevcic.js-code-pad","product_id":"js_code_pad_developer_upgrade","entitlements":
 ["developer"],"version":"1.8.5"},
-      # {"app_name":"HealthView","bundle_id":"com.funnmedia.HealthMinder","product_id":"com.funnmedia.HealthMinder.subscription.yearly.v2","entitlements":["healthview_premium"],"version":"3.9.0"},
-      
-# {"app_name":"时间记录","bundle_id":"com.bapaws.Hours","product_id":"com.bapaws.Hours.lifetime","entitlements":["pro"],"version":"1.8.6"},
+      {"app_name":"HealthView","bundle_id":"com.funnmedia.HealthMinder","product_id":"com.funnmedia.HealthMinder.subscription.yearly.v2","entitlements":["healthview_premium"],"version":"3.9.0"},
       {"app_name":"EventLine","bundle_id":"xyz.jiaolong.app.EventLine","product_id":"xyz.jiaolong.eventline.pro.lifetime","entitlements":["pro"],"version":"1.15.0"},
       {"app_name":"Tally","bundle_id":"com.rainbow.PlusOne","product_id":"tally.remove_ad","entitlements":["pro"],"version":"3.9.0"},
       {"app_name":"Days","bundle_id":"net.mattdavenport.daysuntil","product_id":"net.mattdavenport.daysuntil.dayspremiumlifetime","entitlements":["premium","pro"],"version":"3.15"},
