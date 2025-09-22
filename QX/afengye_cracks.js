@@ -39,7 +39,7 @@ if(typeof $response == "undefined") {
       {"app_name":"HealthView","bundle_id":"com.funnmedia.HealthMinder","product_id":"com.funnmedia.HealthMinder.subscription.yearly.v2","entitlements":["healthview_premium"],"version":"3.9.0"},
       
 {"app_name":"时间记录","bundle_id":"com.bapaws.Hours","product_id":"com.bapaws.Hours.lifetime","entitlements":["pro"],"version":"1.8.6"},
-      {"app_name":"EventLine","bundle_id":"xyz.jiaolong.app.EventLine","product_id":"xyz.jiaolong.eventline.pro.lifetime","entitlements":["pro"],"version":"1.15.0"}
+      {"app_name":"EventLine","bundle_id":"xyz.jiaolong.app.EventLine","product_id":"xyz.jiaolong.eventline.pro.lifetime","entitlements":["pro"],"version":"1.15.0"},
       {"app_name":"Tally","bundle_id":"com.rainbow.PlusOne","product_id":"tally.remove_ad","entitlements":["pro"],"version":"3.9.0"},
       {"app_name":"Days","bundle_id":"net.mattdavenport.daysuntil","product_id":"net.mattdavenport.daysuntil.dayspremiumlifetime","entitlements":["premium","pro"],"version":"3.15"},
       {"app_name":"1Blocker","bundle_id":"","product_id":"blocker.ios.iap.lifetime","entitlements":["premium"],"version":"5.8"},
