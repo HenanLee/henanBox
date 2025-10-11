@@ -1,6 +1,7 @@
 /*
 脚本作者：chxm1023
 脚本日期：2023-08-19
+可用版本:（ 解锁版本：2211 1325 不能升级）
 引用地址：https://github.com/HenanLee/henanBox/raw/refs/heads/main/QX/Xmind/xmind_crack.js
 */
 var chxm1023 = JSON.parse($response.body);
