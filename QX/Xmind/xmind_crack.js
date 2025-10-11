@@ -1,7 +1,7 @@
 /*
 脚本作者：chxm1023
 脚本日期：2023-08-19
-引用地址：https://raw.githubusercontent.com/chxm1023/Rewrite/main/Xmind.js
+引用地址：https://github.com/HenanLee/henanBox/raw/refs/heads/main/QX/Xmind/xmind_crack.js
 */
 var chxm1023 = JSON.parse($response.body);
 
