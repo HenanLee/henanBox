@@ -18,7 +18,7 @@
 
 [rewrite_local]
 
-^https://www\.freshhome\.top/mngruqi/api/refreshUser url script-response-body https://raw.githubusercontent.com/SheepFJ/Sheep/main/ruqi.js  
+^https://www\.freshhome\.top/mngruqi/api/refreshUser url script-response-body https://raw.githubusercontent.com/HenanLee/henanBox/main/QX/ruqi.js  
 
 [mitm]
 
