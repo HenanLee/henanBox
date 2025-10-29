@@ -18,7 +18,7 @@
   
 # ～ Not Boring 四件套[天气、习惯、日历、时间] 解锁会员权限（2022-06-18）@ddgksf2013
 
-^https?:\/\/api-weather\.andy\.works\/v\d\/\w{18}$ url script-response-body https://github.com/ddgksf2013/Cuttlefish/raw/master/Crack/notboring.js
+^https?:\/\/api-weather\.andy\.works\/v\d\/\w{18}$ url script-response-body https://raw.githubusercontent.com/HenanLee/henanBox/main/QX/Notboring.js
 
 [mitm] 
 
