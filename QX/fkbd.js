@@ -1,3 +1,6 @@
+/*
+ *
+ *
 *******************************
 [rewrite_local]
 
@@ -6,6 +9,9 @@
 [mitm]
 hostname = api.fengkuangapp.com
 *******************************
+*
+*
+*/
 
 var url = $request.url;
 var body = JSON.parse($response.body);
