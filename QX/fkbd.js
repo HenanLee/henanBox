@@ -4,7 +4,7 @@
 *******************************
 [rewrite_local]
 
-^https?:\/\/api\.fengkuangapp\.com\/(account\/grant\/detail\/info|learning\/grant\/fav_words\/fav\/v2|wd\/grant\/plan\/extra\/config)\/ url script-response-body https://github.com/HenanLee/henanBox/raw/refs/heads/main/QX/fkbd.js
+^https:\/\/api\.fengkuangapp\.com\/ url script-response-body https://github.com/HenanLee/henanBox/raw/refs/heads/main/QX/fkbd.js
 
 [mitm]
 hostname = api.fengkuangapp.com
