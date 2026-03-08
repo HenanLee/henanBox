@@ -82,4 +82,19 @@ body.data.extra_on = 1;
 
 }
 
+// 4️⃣ 新建词书
+if (url.indexOf("/wd/grant/extra/book/add/") != -1) {
+
+body.code = 0;
+body.msg = "success";
+
+if (!body.data) {
+    body.data = {};
+}
+
+body.data.id = Date.now();
+body.data.title = "自定义词书";
+
+}
+
 $done({ body: JSON.stringify(body) });
