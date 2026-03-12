@@ -49,7 +49,7 @@ body.data.group = 10;
 body.data.role_id = 2;
 
 // 自定义信息
-body.data.nick = "自定义测试";
+body.data.nick = "解锁vip";
 body.data.photo = "http://ykhp-user-imges.yikaobang.com.cn/Uploads/Avatar/2024/08/18/66c188e2d4fab.jpg";
 
 }
