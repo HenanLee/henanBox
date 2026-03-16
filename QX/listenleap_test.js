@@ -12,7 +12,7 @@
 *******************************
 [rewrite_local]
 # > 帮你听懂英语播客-通过播客学英语
-^https:\/\/.*\.listenleap\.com\/front-api\/ url script-response-body https://raw.githubusercontent.com/WeiGiegie/666/main/listenleap.js
+^https:\/\/.*\.listenleap\.com\/front-api\/ url script-response-body https://github.com/HenanLee/henanBox/raw/refs/heads/main/QX/listenleap_test.js
 
 [mitm]
 hostname = *.listenleap.com
