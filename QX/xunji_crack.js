@@ -4,10 +4,12 @@
 脚本作者：@ios151
 使用说明：仅供学习 禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖禁止售卖
 特别说明：8.8号最新版修复bug,由于相关人员警告,不再更新
+
 [rewrite_local]
-^https:\/\/xunji\.gxzckj\.com\/(whole_user_info_v4|after310\/ios) url script-response-body https://raw.githubusercontent.com/HenanLee/henanBox/refs/heads/main/QX/xunji_crack.js
+^https:\/\/api\.xunjiapp\.cn\/try_vip_get url script-response-body https://raw.githubusercontent.com/HenanLee/henanBox/refs/heads/main/QX/xunji_crack.js
+
 [mitm]
-hostname = xunji.gxzckj.com
+hostname = api.xunjiapp.cn, xunji.gxzckj.com
 
 */
 
