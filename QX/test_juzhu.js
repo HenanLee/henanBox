@@ -5,14 +5,22 @@
 hostname = 103.45.131.38
 
 
-let obj = JSON.parse($response.body);
+let body = $response.body;
 
-if (obj.data) {
-  obj.data.enable = false;
-  obj.data.verCode = "0";
-  obj.data.detail = "";
-  obj.data.downloadUrl = "";
-  obj.data.exDownloadUrl = "";
+try {
+  let obj = JSON.parse(body);
+
+  if (obj.data) {
+    obj.data.enable = false;
+    obj.data.verCode = "0";
+    obj.data.detail = "";
+    obj.data.downloadUrl = "";
+    obj.data.exDownloadUrl = "";
+  }
+
+  $done({ body: JSON.stringify(obj) });
+
+} catch (e) {
+  console.log("解析失败，原始返回：", body);
+  $done({});
 }
-
-$done({body: JSON.stringify(obj)});
