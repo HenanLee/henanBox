@@ -1,5 +1,5 @@
 [rewrite_local]
-^http:\/\/103\.45\.131\.38:40001\/api\/update\/getVersionInf\.do url script-response-body no_update.js
+^http:\/\/103\.45\.131\.38:40001\/api\/update\/getVersionInf\.do url script-response-body https://raw.githubusercontent.com/HenanLee/henanBox/main/QX/test_juzhu.js
 
 [mitm]
 hostname = 103.45.131.38
